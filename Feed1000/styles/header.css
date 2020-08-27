@@ -4,7 +4,6 @@ header.page-header {
     height: 20rem;
     background-repeat: repeat-x;
     background-position: left bottom;
-    border-bottom: 4px solid #1d1d1d;
 }
 
 header.page-header .container {
@@ -76,7 +75,4 @@ header.page-header .register:before /* Creates dotted border */ {
 header.page-header .register .free {
     font-size: 80%;
 }
-
-
-
 

@@ -139,8 +139,8 @@
     <Content Include="index.htm" />
     <Content Include="live.htm" />
     <Content Include="location.htm" />
-    <Content Include="register.htm" />
-    <Content Include="schedule.htm" />
+    <Content Include="donate.htm" />
+    <Content Include="packages.htm" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

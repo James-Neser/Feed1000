@@ -11,12 +11,12 @@ nav.page-nav {
 nav.page-nav .container {
     display: -ms-flexbox;
     display: flex;
+    margin-left:0px;
 }
 
 nav.page-nav a {
-    display: block;
-    min-width: 9rem;
-    padding: 0 1.8rem;
+    display: grid;
+    position: relative;
     /*border-right: 1px dotted #3D3D3D;*/
     text-decoration: none;
     text-transform: uppercase;
@@ -26,43 +26,52 @@ nav.page-nav a {
     /*text-shadow: 0 1px 0 #000;*/
 }
 
-/*nav.page-nav a:first-child {
-    border-left: 1px dotted #3D3D3D;
-}*/
-
-nav.page-nav a:hover {
-    color: darkolivegreen;
-        border-bottom: solid darkgreen;
-    transition-property: color,background-color,border-color;
-    transition-duration: .2s;
-    transition-timing-function: linear;
-    
-}
-
 nav.page-nav a.active {
-    color: darkgreen;
-    border-bottom: solid darkgreen;
-    /* Background gradient effects */
-    /*background: -ms-linear-gradient(#C95656, #8d0606);*/
-    /*background: linear-gradient(#bab1b1, #968888);*/
+    color:forestgreen;
 }
 
-nav.page-nav .active:hover {
-    color: darkgrey; /* Overrides hover effect for active page link */
-
+nav.page-nav a:hover:before{
+    color: limegreen;
+    transform: scaleX(1);
 }
 
-/*nav.page-nav .active:before /* Creates ribbon effect on active link {
-    position: absolute;
-    top: 6rem;
-    display: block;
-    height: 0;
-    width: 0;
-    margin-left: -1.9rem;
-    border-top: 2rem solid #8d0606;
-    border-right: 6.5rem solid transparent;
+nav.page-nav a.active:before {
+    transform: scaleX(1);
+}
+
+nav.page-nav a:before {
     content: "";
-}*/
+    color: limegreen;
+    position: absolute;
+    top: calc(30% + 1.15em);
+    width: 100%;
+    border-top-style: solid;
+    transform: scaleX(0);
+    transition: transform .2s ease-in-out;
+}
+
+nav.page-nav .nav-list{
+    display: inline-flex;
+    float: left;
+    list-style: none;
+}
+
+nav.page-nav .list-item{
+    padding: 0 3rem;
+}
+
+nav.page-nav .Logo {
+    width: 150px;
+    float: left;
+}
+
+nav.page-nav .social {
+    width:21px;
+}
+
+nav.page-nav .social_link {
+    margin-top:17px;
+}
 
 /*nav.page-nav .active:after Creates ribbon effect on active link {
     position: absolute;
