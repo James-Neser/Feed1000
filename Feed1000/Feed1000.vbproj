@@ -135,12 +135,12 @@
     <Content Include="scripts\page\video.js" />
     <Content Include="about.htm" />
     <Content Include="styles\pages\feedback.css" />
-    <Content Include="feedback.htm" />
+    <Content Include="contact.htm" />
     <Content Include="index.htm" />
     <Content Include="live.htm" />
     <Content Include="location.htm" />
     <Content Include="donate.htm" />
-    <Content Include="packages.htm" />
+    <Content Include="gallery.htm" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

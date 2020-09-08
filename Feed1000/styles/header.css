@@ -1,7 +1,6 @@
 /* Styles for the page header */
 
 header.page-header {
-    background-image: url(/images/action/yellow_jacket.jpeg);
     background-size: cover;
     height: 50rem;
     background-repeat: no-repeat;

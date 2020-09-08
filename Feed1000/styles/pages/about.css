@@ -4,16 +4,27 @@
     text-align: justify;
 }
 
+.history {
+    text-align:center;
+}
+
+.paraimg {
+    width: 750px;
+    margin-left: 11rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header.page-header {
+    background-position-y: -23rem;
+}
+
 .about p:first-child:first-letter /* Picks out first letter only for drop cap effect */ {
     font-size: 300%;
     float: left;
     margin: 0 0.5rem 0 0;
     line-height: .8;
     color: #aaa;
-}
-
-.about p {
-    text-indent: 3rem;
 }
 
 .about p:first-child /* Prevents text indenting after drop cap */ {
