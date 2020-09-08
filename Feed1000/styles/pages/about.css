@@ -2,10 +2,6 @@
 
 .about > article > section {
     text-align: justify;
-
-    /* Columns Layout */
-    column-count: 3;
-    column-gap: 5rem;
 }
 
 .about p:first-child:first-letter /* Picks out first letter only for drop cap effect */ {

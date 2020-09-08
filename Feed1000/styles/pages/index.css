@@ -1,50 +1,29 @@
 /* Styles for the index page */
-
-.speakers ul {
-    list-style-type: none;
-    padding: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.speakers li {
-    display: block;
-    margin: 0 2rem 1rem 0; 
-}
-
-.speakers li img {
-    border: 1px solid #888;
-}
-
-.speakers li .name {
+.story {
+    width: 70rem;
     text-align: center;
-    display: block;
+    margin: auto;
+    font-size: 2rem;
 }
 
-
-.sponsors ul {
-    list-style-type: none;
-    padding: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+.vision {
+    width: 25rem;
+    font-size: 2rem;
+    float: left;
+    margin-left: 7rem;
+    margin-right: 8rem;
+    margin-top: 5rem;
+    text-align: center;
 }
 
-.sponsors li {
-    display: block;
-    margin: 0 2rem 1rem 0;
-    max-width: 16rem;
+.partners {
+    width: 70rem;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
 }
 
-.sponsors li img {
-    max-width: 100%;
-    display: block;
+.video {
+    margin-top:3rem;    
 }
 
-
-.video video {
-    max-width: 100%;    
-}

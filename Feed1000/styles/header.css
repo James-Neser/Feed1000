@@ -1,9 +1,12 @@
 /* Styles for the page header */
 
 header.page-header {
-    height: 20rem;
-    background-repeat: repeat-x;
-    background-position: left bottom;
+    background-image: url(/images/action/yellow_jacket.jpeg);
+    background-size: cover;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -15rem;
 }
 
 header.page-header .container {
@@ -22,57 +25,8 @@ header.page-header p {
     font-style: italic;
 }
 
-
-header.page-header .register {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    width: 160px;
-    height: 100px;
-    padding-top: 60px;
-    opacity: 0.8;
-    font-size: 2.7rem;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    /* Rounded corners to create circle */
-    border-radius: 100%;
-    text-shadow: 0 1px 0 #000;
-    transform: rotate(6deg);
-    background: -ms-linear-gradient(#a80000, #740404);
-    background: linear-gradient(#a80000, #740404);
-
-    /* TODO: Transition the transform property over 1 second */
-    transition: transform 1s;
-}
-
-header.page-header .register:hover {
-    color: #fff;
-    background: -ms-linear-gradient(#bc0101, #8c0909);
-    background: linear-gradient(#bc0101, #8c0909);
-
-    /* TODO: rotate to 16 degrees and scale by 1.1 */
-    transform: rotate(16deg) scale(1.1,1.1);
-
-    /* TODO: Transition the transform property over 1 second */
-    transition: transform 1s;
-}
-
-header.page-header .register:before /* Creates dotted border */ {
-    display: block;
-    position: absolute;
-    top: -7px;
-    right: -7px;
-    height: 168px;
-    width: 168px;
-    content: "";
-    border: 3px dotted #740404;
-    border-radius: 100%;
-}
-
-header.page-header .register .free {
-    font-size: 80%;
+header.page-header .slogan {
+    margin-top: 7rem;
+    width: 27rem;
 }
 

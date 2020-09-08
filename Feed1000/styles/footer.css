@@ -9,10 +9,14 @@ footer.page-footer {
 }
 
 footer.page-footer .container {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 /* To stick the footer at the bottom of the page, give the page-section a min-height so it pushes down */
 section.page-section {
     min-height: calc(100% - 46.6rem); /* 46.6rem is the combined height of the nav, header and footer. */
+}
+
+footer.page-footer .terms {
+    padding: 2rem;
 }

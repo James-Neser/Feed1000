@@ -8,7 +8,7 @@ nav.page-nav {
     box-shadow: 0px 0px 1px 0px black;
 }
 
-nav.page-nav .container {
+nav.page-nav .navcontainer {
     display: -ms-flexbox;
     display: flex;
     margin-left:0px;
@@ -17,13 +17,10 @@ nav.page-nav .container {
 nav.page-nav a {
     display: grid;
     position: relative;
-    /*border-right: 1px dotted #3D3D3D;*/
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     color: black;
-
-    /*text-shadow: 0 1px 0 #000;*/
 }
 
 nav.page-nav a.active {
@@ -57,7 +54,8 @@ nav.page-nav .nav-list{
 }
 
 nav.page-nav .list-item{
-    padding: 0 3rem;
+    padding-right: 10rem;
+    inline-size: max-content;
 }
 
 nav.page-nav .Logo {
@@ -73,13 +71,24 @@ nav.page-nav .social_link {
     margin-top:17px;
 }
 
-/*nav.page-nav .active:after Creates ribbon effect on active link {
-    position: absolute;
-    display: block;
-    height: 0;
-    width: 0;
-    margin-left: 4.3rem;
-    border-top: 2rem solid #8d0606;
-    border-left: 6.5rem solid transparent;
-    content: "";
+@media screen and (min-width: 1750px) {
+    nav.page-nav .Logo {
+        margin-left: 300px;
+    }
+}
+
+/*@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 770px) {
+
 }*/

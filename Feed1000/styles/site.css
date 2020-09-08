@@ -28,6 +28,13 @@ input, button {
     margin: 0 auto;
 }
 
+.navcontainer {
+    padding: 0 1rem;
+    max-width: 96rem;
+    /* Horizontally center containers */
+    margin: 0 auto;
+}
+
 section.page-section .container {
     padding-bottom: 2rem;
 }
