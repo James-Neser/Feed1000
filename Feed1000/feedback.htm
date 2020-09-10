@@ -1,19 +1,20 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Feed 1000 Feedback</title>
-        
-        <link href="/styles/site.css" rel="stylesheet" type="text/css" />
-        <link href="/styles/nav.css" rel="stylesheet" type="text/css" />
-        <link href="/styles/header.css" rel="stylesheet" type="text/css" />
-        <link href="/styles/footer.css" rel="stylesheet" type="text/css" />
-        
-        <link href="/styles/pages/feedback.css" rel="stylesheet" type="text/css" />
-        
-        <link href="/styles/mobile.css" rel="stylesheet" type="text/css" />
-        <link href="/styles/print.css" media="print" rel="stylesheet" type="text/css" />
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <title>Feed 1000 Feedback</title>
+
+    <link href="/styles/site.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/nav.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/header.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/footer.css" rel="stylesheet" type="text/css" />
+
+    <link href="/styles/pages/contactus.css" rel="stylesheet" type="text/css" />
+
+    <link href="/styles/mobile.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/print.css" media="print" rel="stylesheet" type="text/css" />
+
+</head>
     <body>
         
         <nav class="page-nav">
@@ -25,8 +26,8 @@
                     <li class="list-item"><a href="/packages.htm">Packages</a></li>
                     <li class="list-item"><a href="/donate.htm">Donate</a></li>
                     <li class="list-item"><a href="/location.htm">Request Help</a></li>
-                    <li class="list-item"><a href="/feedback.htm" class="active">Feedback</a></li>
-                    <li class="list-item"><a class="social_link" href=" http://www.instagram.com/Just_James"><img class="social" src="images/nav/insta.png" alt="Instagram Link"></a></li>
+                    <li class="list-item"><a href="/feedback.htm" class="active">Contact Us</a></li>
+                    <li class="list-item"><a class="social_link" href="https://www.instagram.com/feedonethousand/"><img class="social" src="images/nav/insta.png" alt="Instagram Link"></a></li>
                 </ul>
             </div>
         </nav>
@@ -38,57 +39,40 @@
             </div>
         </header>
         
-        <section class="page-section feedback">
-            <div class="container">
-                <section id="feedback">
-                    <h1>Enjoyed the conference? Leave your feedback!</h1>
-                    <form method="post" action="/send-feedback">
-                        <div class="field feedback-question">
-                            <label>How would you rate the speaker's knowledge of the topic?</label>
-                            <input name="question" type="range" min="1" max="5"/>
-                        </div>
-                        <div class="field feedback-question">
-                            <label>How well could you hear the speaker?</label>
-                            <input name="question" type="range" min="1" max="5"/>
-                        </div>
-                        <div class="field feedback-question">
-                            <label>How useful did you find the information in this talk?</label>
-                            <input name="question" type="range" min="1" max="5"/>
-                        </div>
-                        <div class="field feedback-question">
-                            <label>How would you rate the overall session?</label>
-                            <input name="question" type="range" min="1" max="5"/>
-                        </div>
-                        <div class="field comments">
-                            <label>Any additional comments?</label>
-                            <textarea name="comments" cols="30" rows="5"></textarea>
-                        </div>
-                        <div class="field actions">
-                            <button type="submit">Send Feedback</button>
-                        </div>
-                    </form>
-                </section>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
                 
-                <section id="feedback-sent">
-                    <h1>Thanks for the feedback</h1>
-                </section>
             </div>
-        </section>
+            <div class="row">
+                <div class="column">
+                    <img src="images/action/Slogan3.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="number">Phone Number</label>
+                        <input type="text" id="number" name="number" placeholder="0768987788.."/>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+                
+               
 
         <footer class="page-footer">
             <div class="container">
-                <p>
-                    Hosted by Contoso
-                </p>
-                <address>
-                    Conference Center<br />
-                    1234 Main Street<br />
-                    Seattle<br />
-                    WA 98999
-                </address>
-                <p>
-                    &#169; 2012 Contoso
-                </p>
+                Copyright © 2012-2020 #FEED ONE THOUSAND. All Rights Reserved. EIN:26-0851887 #FEED ONE THOUSAND is a 501 (C) (3) registered charity
+                <div class="terms">
+                    <a>Privacy Policy</a>
+                    <a>Terms and conditions</a>
+                </div>
             </div>
         </footer>
 
