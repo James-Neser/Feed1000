@@ -15,7 +15,7 @@
         <link href="/styles/print.css" media="print" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        
+
         <nav class="page-nav">
             <img src="images/nav/Nav_Logo.jpg" alt="Feed1000 logo" class="Logo" />
             <div class="navcontainer">
@@ -30,77 +30,39 @@
                 </ul>
             </div>
         </nav>
-        
+
         <header class="page-header">
             <div class="container">
-                <h1>Feed 1000</h1>
+                <h1>Current Delivery Locations</h1>
                 <p class="tag-line">For those in need with out a way to reach those who can help.</p>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="895" height="500" id="gmap_canvas" src="https://www.google.com/maps/d/embed?mid=1328Yo1oUKHDroN45JSfyqF5Yl-r5IXeX" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://torrent9-site.org"></a></div></div>
             </div>
         </header>
-        
+
         <section class="page-section location">
             <div class="container">
-                <section class="travel">
-                    <h1>Travelling to ContosoConf</h1>
-                    <h2 id="distance"></h2>
-                    <h2>Address</h2>
-                    <address>
-                        Conference Center<br/>
-                        1234 Main Street<br/>
-                        Seattle<br/>
-                        WA 98999
-                    </address>
-                    <h2>Hotels</h2>
-                    <p>...</p>
+                <section class="help">
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="John" class="input"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe" class="input"><br>
+                        <label for="lname">Location</label><br>
+                        <input type="text" id="lname" name="lname" value="automatic to current location on submit" class="input"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
                 </section>
 
-                <section class="venue">
-                    <h1>Interactive conference venue map</h1>
-                    <div id="venue-map">
-                        <svg viewBox="-1 -1 302 102" width="100%" height="230">
-                            <!-- Room A -->
-                            <g id="room-a" class="room">
-                                <rect fill="#fff" x="0" y="0" width="100" height="100"></rect>
-                                <text x="13" y="55" font-weight="bold" font-size="20">ROOM A</text>
-                            </g>
-                            <!-- Room B -->
-                            <g id="room-b" class="room">
-                                <rect fill="#fff" x="200" y="0" width="100" height="100"></rect>
-                                <text x="213" y="55" font-weight="bold" font-size="20">ROOM B</text>
-                            </g>
-                            <!-- The outline of the building -->
-                            <polyline fill="none" stroke="#000" points="135,95 140,100 0,100 0,0 100,0 100,80 130,80 130,70 110,70 110,30 190,30 190,70 170,70 170,80 200,80 200,0 300,0 300,100 160,100 165,95"></polyline>
-                            <text x="150" y="55" font-size="12" style="text-anchor: middle">Registration</text>
-                        </svg>
-                
-                        <div id="instruction">
-                            <p>Click a room on the map to see more information.</p>
-                        </div>
-                        <div id="room-a-info" style="display: none">
-                            <h2>Room A</h2>
-                        </div>
-                        <div id="room-b-info" style="display: none">
-                            <h2>Room B</h2>
-                        </div>
-                    </div>
-                </section>
             </div>
         </section>
 
         <footer class="page-footer">
             <div class="container">
-                <p>
-                    Hosted by Contoso
-                </p>
-                <address>
-                    Conference Center<br />
-                    1234 Main Street<br />
-                    Seattle<br />
-                    WA 98999
-                </address>
-                <p>
-                    &#169; 2012 Contoso
-                </p>
+                Copyright © 2012-2020 #FEED ONE THOUSAND. All Rights Reserved. EIN:26-0851887 #FEED ONE THOUSAND is a 501 (C) (3) registered charity
+                <div class="terms">
+                    <a>Privacy Policy</a>
+                    <a>Terms and conditions</a>
+                </div>
             </div>
         </footer>
 
