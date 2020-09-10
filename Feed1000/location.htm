@@ -15,7 +15,6 @@
         <link href="/styles/print.css" media="print" rel="stylesheet" type="text/css" />
     </head>
     <body>
-
         <nav class="page-nav">
             <img src="images/nav/Nav_Logo.jpg" alt="Feed1000 logo" class="Logo" />
             <div class="navcontainer">
@@ -42,13 +41,13 @@
         <section class="page-section location">
             <div class="container">
                 <section class="help">
-                    <form>
+                    <form method="post" action="email.php">
                         <label for="fname">First name:</label><br>
                         <input type="text" id="fname" name="fname" value="John" class="input"><br>
                         <label for="lname">Last name:</label><br>
                         <input type="text" id="lname" name="lname" value="Doe" class="input"><br>
                         <label for="lname">Location</label><br>
-                        <input type="text" id="lname" name="lname" value="automatic to current location on submit" class="input"><br><br>
+                        <input type="text" id="lname" name="location" value="automatic to current location on submit" class="input"><br><br>
                         <input type="submit" value="Submit">
                     </form>
                 </section>
